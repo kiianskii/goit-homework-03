@@ -22,6 +22,7 @@ margin-right: 156px;
 box-sizing: border-box;
 margin: 0 auto;
 padding: 0 15px;
+display: flex;
 }
 
   .section {  
@@ -53,7 +54,7 @@ color: var(--NAVY-BLUE, #2E2F42);
 }
 
 .header-navigation-block{
-    display: inline-flex;
+    display: flex;
     align-items: flex-start;
      gap: 40px;
     margin-left: 76px;
@@ -71,6 +72,7 @@ color: var(--NAVY-BLUE, #2E2F42);
     letter-spacing: 0.54px;
     text-transform: uppercase;
     margin-left: 0;
+    margin-right: 76px;
 
 }
 
@@ -86,7 +88,8 @@ color: var(--NAVY-BLUE, #2E2F42);
 
 .header-navigation-item {
 color: var(--NAVY-BLUE, #2E2F42);
-display: block;
+
+padding: 24px 0;
 }
 .header-navigation-item:hover {
     color: var(--OCEAN, #404BBF);
@@ -103,7 +106,7 @@ font-style: normal;
 
 .header-navigation-contacts {
 display: flex;
-    align-items: flex-start;
+    margin-top: 24px;
     gap: 40px;
     margin-left: 76px;
 }
