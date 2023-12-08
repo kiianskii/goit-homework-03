@@ -23,6 +23,7 @@ box-sizing: border-box;
 margin: 0 auto;
 padding: 0 15px;
 display: flex;
+
 }
 
   .section {  
@@ -136,20 +137,23 @@ width: 1440px;
     height: 600px;
     flex-shrink: 0;
 background: var(--NAVY-BLUE, #2E2F42);
+padding: 188px 0;
+
 }
 
 .title-section-header {
 
-color: var(--WHITE, #FFF);
-    text-align: center;
+    color: var(--WHITE, #FFF);
+    text-align: center; 
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.07;
     /* 107.143% */
     letter-spacing: 1.12px;
-    margin: 0;
-padding: 188px 316px 48px 316px;
+    margin: 0 316px; 
+    /* padding: 188px 316px 48px 316px;  */
+    max-width: 496px;
     
 }
 .title-section-button{
@@ -160,12 +164,13 @@ padding: 188px 316px 48px 316px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    display: inline-flex;
-        padding: 16px 32px;
-        align-items: flex-start;
-        gap: 10px;
-        margin: 0 448px 188px 447px;
-        
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    
+       
 }
 .title-section-button:hover {
         background: var(--OCEAN, #404BBF);
